@@ -50,7 +50,7 @@ if os.path.exists("results/stability_overlay.png"):
     html += r"""
 <div class="figure">
   <img src="assets/nfw_stability.png" alt="NFW stability">
-  <div class="caption"><b>Figure 1.</b> Density profile of an NFW halo after 10 dynamical times. Blue circles show the N-body result (\(N=50{,}000\)); the black solid line is the analytical NFW profile. The good agreement confirms numerical stability.</div>
+  <div class="caption"><b>Figure 1.</b> Density profile of an NFW halo after 10 dynamical times. Blue circles show the N-body result (\(N=50{,}000\)); the black solid line is the analytical NFW profile. The profile remains visually consistent with analytic NFW; no quantitative convergence study performed.</div>
 </div>
 """
 
@@ -82,7 +82,7 @@ html += r"""
 <p>The pipeline processes binary output files from NSphere (float32 format). For peak runs (50,000 particles, 10 dynamical times), the raw data volume (snapshots, profiles, histograms) reaches tens of megabytes per run. A custom Python parser (<code>np.fromfile</code> with reshaping into 4 columns) was written to extract radial profiles directly from binary files.</p>
 
 <h3>A.2 Performance</h3>
-<p>By reducing the 6D phase-space to 3D, simulating 50,000 particles for 10 dynamical times (5000 integrator steps) takes <b>less than 10 seconds</b> on a single Apple Silicon core. This allows for massive parameter scans (e.g., varying \(\kappa\) for SIDM) without supercomputers.</p>
+<p>By reducing the 6D phase-space to 3D, simulating 50,000 particles for 10 dynamical times (5000 integrator steps) takes <b>~24 seconds</b> on a single Apple Silicon core (for 50k particles, 5000 steps). This allows for massive parameter scans (e.g., varying \(\kappa\) for SIDM) without supercomputers.</p>
 
 <h3>A.3 Additional Diagnostic Plots</h3>
 """
