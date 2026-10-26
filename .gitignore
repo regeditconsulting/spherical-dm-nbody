@@ -1,7 +1,21 @@
+# Environment
 env/local/
-refs/
-data/raw/
-data/processed/
 __pycache__/
 *.pyc
+.venv/
+
+# Build artifacts
+build/
+*.o
+*.dSYM/
+
+# Data & Results
+data/
+results/
+
+# External dependencies
+refs/
+
+# System
 .DS_Store
+*.log

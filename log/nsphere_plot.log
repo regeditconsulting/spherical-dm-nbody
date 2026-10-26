@@ -4,3 +4,218 @@
 2026-10-26 11:54:14 - INFO - Read parameters: npts=10000, Ntimes=1001, tfinal=1, tag='nfw_test'
 2026-10-26 11:54:14 - INFO - Attempting to read parameters from user-specified file: data/lastparamsnfw_test.dat
 2026-10-26 11:54:14 - WARNING - Could not find lastparams file for suffix 'nfw_test'. Falling back to parsing suffix string.
+2026-10-26 12:19:15 - INFO - Reading parameters from default file: data/lastparams.dat
+2026-10-26 12:19:15 - INFO - Read parameters: npts=10000, Ntimes=1001, tfinal=1, tag='nfw_test'
+2026-10-26 12:19:15 - INFO - Attempting to read parameters from user-specified file: data/lastparams_nfw_test_10000_1001_1.dat
+2026-10-26 12:19:15 - INFO - Read parameters: npts=10000, Ntimes=1001, tfinal=1, tag='nfw_test'
+2026-10-26 12:19:15 - INFO - Successfully loaded parameters for suffix '_nfw_test_10000_1001_1' from its lastparams file.
+2026-10-26 12:19:15 - INFO - Starting combined progress tracking for diagnostic_data_loading with 2 total plots
+2026-10-26 12:19:15 - INFO - Progress update: data/particles_nfw_test_10000_1001_1.dat
+2026-10-26 12:19:15 - INFO - Progress update: data/Rank_Mass_Rad_VRad_unsorted_t00010_nfw_test_10000_1001_1.dat
+2026-10-26 12:19:15 - INFO - Starting combined progress tracking for diagnostic_plot_saving with 5 total plots
+2026-10-26 12:19:15 - INFO - Progress update: results/radius_hist_compare_nfw_test_10000_1001_1.png
+2026-10-26 12:19:15 - INFO - Progress update: results/total_velocity_histogram_compare_nfw_test_10000_1001_1.png
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Substituting symbol \perp from STIXGeneral
+2026-10-26 12:19:15 - INFO - Progress update: results/tangential_velocity_histogram_compare_nfw_test_10000_1001_1.png
+2026-10-26 12:19:15 - INFO - Progress update: results/radial_velocity_histogram_compare_nfw_test_10000_1001_1.png
+2026-10-26 12:19:16 - INFO - Progress update: results/angular_momentum_histogram_compare_nfw_test_10000_1001_1.png
+2026-10-26 12:19:16 - INFO - Starting combined progress tracking for profile_data_loading with 8 total plots
+2026-10-26 12:19:16 - INFO - Loading density profile data from data/density_profile_nfw_test_10000_1001_1.dat
+2026-10-26 12:19:16 - INFO - Progress update: loading_density_profile
+2026-10-26 12:19:16 - INFO - Loading mass profile data from data/massprofile_nfw_test_10000_1001_1.dat
+2026-10-26 12:19:16 - INFO - Progress update: loading_mass_profile
+2026-10-26 12:19:16 - INFO - Loading psi profile data from data/Psiprofile_nfw_test_10000_1001_1.dat
+2026-10-26 12:19:16 - INFO - Progress update: loading_psi_profile
+2026-10-26 12:19:16 - INFO - Loading dpsi/dr profile data from data/dpsi_dr_nfw_test_10000_1001_1.dat
+2026-10-26 12:19:16 - INFO - Progress update: loading_dpsi_dr_profile
+2026-10-26 12:19:16 - INFO - Loading drho/dpsi profile data from data/drho_dpsi_nfw_test_10000_1001_1.dat
+2026-10-26 12:19:16 - INFO - Progress update: loading_drho_dpsi_profile
+2026-10-26 12:19:16 - INFO - Loading f(E) profile data from data/f_of_E_nfw_test_10000_1001_1.dat
+2026-10-26 12:19:16 - INFO - Progress update: loading_f_of_E_profile
+2026-10-26 12:19:16 - INFO - Loading df at fixed radius data from data/df_fixed_radius_nfw_test_10000_1001_1.dat
+2026-10-26 12:19:16 - INFO - Progress update: loading_df_fixed_radius_profile
+2026-10-26 12:19:16 - INFO - Successfully loaded df_fixed_radius data: 9701 rows of velocity/distribution data
+2026-10-26 12:19:16 - INFO - df_fixed_radius data loaded successfully, shape: (9701, 2)
+2026-10-26 12:19:16 - INFO - df_fixed_radius data range - v: [0.0, 0.041870445013046265], f: [0.0, 0.037671029567718506]
+2026-10-26 12:19:16 - INFO - First 5 rows: [[0.00000000e+00 0.00000000e+00]
+ [4.31654053e-06 3.16099258e-09]
+ [8.63308105e-06 1.26439685e-08]
+ [1.29496220e-05 2.84489250e-08]
+ [1.72661621e-05 5.05758564e-08]]
+2026-10-26 12:19:16 - INFO - Loading combined histogram data from data/combined_histogram_nfw_test_10000_1001_1.dat
+2026-10-26 12:19:16 - INFO - Progress update: loading_combined_histogram
+2026-10-26 12:19:16 - INFO - Plot saved: results/density_profile_nfw_test_10000_1001_1.png
+2026-10-26 12:19:16 - INFO - Plot saved: results/density_profile_nfw_test_10000_1001_1.png
+2026-10-26 12:19:16 - INFO - Plot saved: results/mass_enclosed_nfw_test_10000_1001_1.png
+2026-10-26 12:19:16 - INFO - Plot saved: results/mass_enclosed_nfw_test_10000_1001_1.png
+2026-10-26 12:19:16 - INFO - Plot saved: results/psi_profile_nfw_test_10000_1001_1.png
+2026-10-26 12:19:16 - INFO - Plot saved: results/dpsi_dr_nfw_test_10000_1001_1.png
+2026-10-26 12:19:16 - INFO - Plot saved: results/drho_dpsi_nfw_test_10000_1001_1.png
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:16 - INFO - Plot saved: results/f_of_E_nfw_test_10000_1001_1.png
+2026-10-26 12:19:16 - INFO - Plot saved: results/f_of_E_nfw_test_10000_1001_1.png
+2026-10-26 12:19:17 - INFO - Plot saved: results/df_fixed_radius_nfw_test_10000_1001_1.png
+2026-10-26 12:19:17 - INFO - Plot saved: results/df_fixed_radius_nfw_test_10000_1001_1.png
+2026-10-26 12:19:17 - INFO - combined radial histogram histogram statistics: 95th percentile=9.188, median=3.688, IQR=[1.812, 6.312], range=[0.000, 11.025]
+2026-10-26 12:19:17 - INFO - Plot saved: results/combined_radial_distribution_nfw_test_10000_1001_1.png
+2026-10-26 12:19:17 - INFO - Plot saved: results/combined_radial_distribution_nfw_test_10000_1001_1.png
+2026-10-26 12:19:17 - INFO - Found 11 rank sorted snapshot files and 11 unsorted snapshot files.
+2026-10-26 12:19:17 - INFO - Processing 11 sorted files for 1D animations...
+2026-10-26 12:19:19 - INFO - Finished processing 11 sorted files for 1D animations.
+2026-10-26 12:19:19 - INFO - Processing 11 unsorted snapshot files...
+2026-10-26 12:19:20 - INFO - Using snapshot range: 0 to 10 with step 1
+2026-10-26 12:19:20 - INFO - Found 11 rank sorted snapshot files in the specified range.
+2026-10-26 12:19:20 - INFO - Energy plots starting
+2026-10-26 12:19:20 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:20 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:20 - INFO - Saved unsorted energy plot: results/Energy_vs_timestep_unsorted_nfw_test_10000_1001_1.png
+2026-10-26 12:19:20 - INFO - Processing 11 files for sorted energy plot after filtering.
+2026-10-26 12:19:20 - INFO - Processing 11 files for energy-time plot...
+2026-10-26 12:19:21 - INFO - Creating energy matrix for 11 snapshots and 10 particles
+2026-10-26 12:19:21 - INFO - Snapshot 0: Found 10 of 10 expected particles
+2026-10-26 12:19:21 - INFO - Snapshot 1: Found 10 of 10 expected particles
+2026-10-26 12:19:21 - INFO - Snapshot 2: Found 10 of 10 expected particles
+2026-10-26 12:19:21 - INFO - Snapshot 3: Found 10 of 10 expected particles
+2026-10-26 12:19:21 - INFO - Snapshot 4: Found 10 of 10 expected particles
+2026-10-26 12:19:21 - INFO - Snapshot 5: Found 10 of 10 expected particles
+2026-10-26 12:19:21 - INFO - Snapshot 6: Found 10 of 10 expected particles
+2026-10-26 12:19:21 - INFO - Snapshot 7: Found 10 of 10 expected particles
+2026-10-26 12:19:21 - INFO - Snapshot 8: Found 10 of 10 expected particles
+2026-10-26 12:19:21 - INFO - Snapshot 9: Found 10 of 10 expected particles
+2026-10-26 12:19:21 - INFO - Snapshot 10: Found 10 of 10 expected particles
+2026-10-26 12:19:21 - INFO - Final energy matrix shape: (11, 10)
+2026-10-26 12:19:21 - INFO - Particle 8536: Found 11/11 data points (100.0%)
+2026-10-26 12:19:21 - INFO - Particle 2941: Found 11/11 data points (100.0%)
+2026-10-26 12:19:21 - INFO - Particle 4185: Found 11/11 data points (100.0%)
+2026-10-26 12:19:21 - INFO - Particle 9801: Found 11/11 data points (100.0%)
+2026-10-26 12:19:21 - INFO - Particle 1016: Found 11/11 data points (100.0%)
+2026-10-26 12:19:21 - INFO - Particle 1588: Found 11/11 data points (100.0%)
+2026-10-26 12:19:21 - INFO - Particle 1308: Found 11/11 data points (100.0%)
+2026-10-26 12:19:21 - INFO - Particle 7999: Found 11/11 data points (100.0%)
+2026-10-26 12:19:21 - INFO - Particle 3240: Found 11/11 data points (100.0%)
+2026-10-26 12:19:21 - INFO - Particle 8392: Found 11/11 data points (100.0%)
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Saved sorted energy plot: results/Energy_vs_timestep_sorted_nfw_test_10000_1001_1.png
+2026-10-26 12:19:21 - INFO - Total energy diagnostics plot saved to results/total_energy_diagnostics_nfw_test_10000_1001_1.png
+2026-10-26 12:19:21 - INFO - Total energy diagnostics plot saved to results/total_energy_diagnostics_nfw_test_10000_1001_1.png
+2026-10-26 12:19:21 - INFO - Starting combined progress tracking for additional_energy_plots with 2 total plots
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:21 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Plot saved: results/energy_vs_time_nfw_test_10000_1001_1.png
+2026-10-26 12:19:22 - INFO - Progress update: results/energy_vs_time_nfw_test_10000_1001_1.png
+2026-10-26 12:19:22 - INFO - Small binary file detected: data/debug_energy_compare_nfw_test_10000_1001_1.dat, size: 352 bytes
+2026-10-26 12:19:22 - INFO - Binary file has few rows: data/debug_energy_compare_nfw_test_10000_1001_1.dat, array size: 88, columns: 8, complete rows: 11
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Substituting symbol E from STIXNonUnicode
+2026-10-26 12:19:22 - INFO - Plot saved: results/energy_compare_nfw_test_10000_1001_1.png
+2026-10-26 12:19:22 - INFO - Progress update: results/energy_compare_nfw_test_10000_1001_1.png
+2026-10-26 12:19:22 - INFO - Energy data processing complete.
