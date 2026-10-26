@@ -47,7 +47,7 @@ html = r"""<!DOCTYPE html>
 """
 
 if os.path.exists("results/stability_overlay.png"):
-    html += """
+    html += r"""
 <div class="figure">
   <img src="assets/nfw_stability.png" alt="NFW stability">
   <div class="caption"><b>Figure 1.</b> Density profile of an NFW halo after 10 dynamical times. Blue circles show the N-body result (\(N=50{,}000\)); the black solid line is the analytical NFW profile. The excellent agreement confirms numerical stability.</div>
@@ -55,14 +55,14 @@ if os.path.exists("results/stability_overlay.png"):
 """
 
 if os.path.exists("results/sidm_core_formation.png"):
-    html += """
+    html += r"""
 <div class="figure">
   <img src="assets/sidm_core.png" alt="SIDM core formation">
   <div class="caption"><b>Figure 2.</b> Density profiles for the collisionless NFW case (blue) and the SIDM run with \(\kappa=100\,\mathrm{cm^2\,g^{-1}}\) (orange). The SIDM profile flattens in the central region, indicating core formation.</div>
 </div>
 """
 
-html += """
+html += r"""
 <h2>4. Discussion</h2>
 <p>The NFW profile remains stable over 10 dynamical times, which validates the numerical setup. In the SIDM run, the central density is significantly reduced compared to the CDM case.</p>
 
@@ -104,7 +104,7 @@ for filename, desc in extra_plots:
         </div>
         """
 
-html += """
+html += r"""
 <p style="font-size: 0.85em; color: #666; margin-top: 2em; text-align: center;">
 Full source code, compilation logs, and deployment instructions are available in the Git repository.
 </p>
