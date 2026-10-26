@@ -14,7 +14,7 @@ r_centers = 0.5 * (edges[1:] + edges[:-1])
 
 # Вычисляем объем сферической оболочки
 volume = (4.0/3.0) * np.pi * (edges[1:]**3 - edges[:-1]**3)
-rho_num = hist / volume
+rho_num = hist / volume / len(r)
 
 # Аналитический NFW (без усечения, для сравнения во внутренней области)
 # rs=1, rho0=1/(4*pi) => rho(r) = 1 / (4*pi * r * (1+r)^2)
