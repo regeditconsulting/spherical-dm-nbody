@@ -1,3 +1,5 @@
+![CI](https://github.com/regeditconsulting/spherical-dm-nbody/actions/workflows/ci.yml/badge.svg)
+
 # Spherical DM N-body Pipeline
 
 **An engineering pipeline for fast, reproducible N-body simulations of dark matter halos.** Built on top of the [NSphere](https://github.com/kris-sigurdson/NSphere) solver, optimized for local machines (no cluster required).
@@ -18,7 +20,7 @@ This project is an **engineering portfolio piece**, not a peer-reviewed physics 
 
 ## Demonstration Outputs
 
-| *Stable NFW halo after 10 dynamical times* | *SIDM core formation (demo)* |
+| *Stable NFW halo after 10 dynamical times* | *SIDM core formation (illustrative, σ/m = 100 cm²/g)* |
 |---|---|
 | ![NFW Stability](assets/nfw_stability.png) | ![SIDM Core](assets/sidm_core.png) |
 
@@ -26,13 +28,14 @@ This project is an **engineering portfolio piece**, not a peer-reviewed physics 
 
 ## Performance Benchmark
 
-Speed is the main feature of this pipeline. By reducing the phase space to 3D, we achieve the following execution times (1000 timesteps, Apple M-series chip):
+Speed is the main feature (provided by the NSphere backend, which reduces 6D to 3D). The scaling follows \(N \log N\). Execution times on Apple M-series chip (single run, includes disk I/O):
 
-| N (particles) | Time (seconds) |
-|---|---|
-| 1,000 | ~0.15 |
-| 10,000 | ~0.80 |
-| 50,000 | ~5.50 |
+| N (particles) | Steps | Time (seconds) |
+|---|---|---|
+| 1,000 | 1000 | ~0.15 |
+| 10,000 | 1000 | ~0.80 |
+| 50,000 | 1000 | ~5.50 |
+| 50,000 | 5000 | **~17.79** |
 
 *(Run `python scripts/benchmark.py` to reproduce on your hardware).*
 
