@@ -1,0 +1,11 @@
+data/raw/
+data/processed/
+env/local/
+build/
+*.o
+*.dSYM/
+__pycache__/
+*.pyc
+.venv/
+*.log
+.DS_Store
