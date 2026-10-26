@@ -49,7 +49,7 @@ html = r"""<!DOCTYPE html>
 if os.path.exists("results/stability_overlay.png"):
     html += """
 <div class="figure">
-  <img src="results/stability_overlay.png" alt="NFW stability">
+  <img src="assets/nfw_stability.png" alt="NFW stability">
   <div class="caption"><b>Figure 1.</b> Density profile of an NFW halo after 10 dynamical times. Blue circles show the N-body result (\(N=50{,}000\)); the black solid line is the analytical NFW profile. The excellent agreement confirms numerical stability.</div>
 </div>
 """
@@ -57,7 +57,7 @@ if os.path.exists("results/stability_overlay.png"):
 if os.path.exists("results/sidm_core_formation.png"):
     html += """
 <div class="figure">
-  <img src="results/sidm_core_formation.png" alt="SIDM core formation">
+  <img src="assets/sidm_core.png" alt="SIDM core formation">
   <div class="caption"><b>Figure 2.</b> Density profiles for the collisionless NFW case (blue) and the SIDM run with \(\kappa=100\,\mathrm{cm^2\,g^{-1}}\) (orange). The SIDM profile flattens in the central region, indicating core formation.</div>
 </div>
 """

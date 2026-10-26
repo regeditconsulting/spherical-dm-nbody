@@ -9,9 +9,10 @@ build/
 *.o
 *.dSYM/
 
-# Data & Results
+# Data (keep .png for reports, ignore raw text/bin)
 data/
-results/
+results/*.dat
+results/*.bin
 
 # External dependencies
 refs/

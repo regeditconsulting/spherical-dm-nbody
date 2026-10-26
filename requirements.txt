@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+astropy
+galpy
+h5py
+tqdm
+psutil
