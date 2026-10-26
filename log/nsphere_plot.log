@@ -1,0 +1,6 @@
+2026-10-26 11:53:45 - INFO - Reading parameters from default file: data/lastparams.dat
+2026-10-26 11:53:45 - INFO - Read parameters: npts=10000, Ntimes=1001, tfinal=1, tag='nfw_test'
+2026-10-26 11:54:14 - INFO - Reading parameters from default file: data/lastparams.dat
+2026-10-26 11:54:14 - INFO - Read parameters: npts=10000, Ntimes=1001, tfinal=1, tag='nfw_test'
+2026-10-26 11:54:14 - INFO - Attempting to read parameters from user-specified file: data/lastparamsnfw_test.dat
+2026-10-26 11:54:14 - WARNING - Could not find lastparams file for suffix 'nfw_test'. Falling back to parsing suffix string.
