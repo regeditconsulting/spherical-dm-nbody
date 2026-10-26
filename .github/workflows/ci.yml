@@ -1,29 +1,39 @@
 name: Python CI
+
 on: [push, pull_request]
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    
     - name: Install system dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y libgsl-dev libfftw3-dev
+        sudo apt-get install -y libgsl-dev libfftw3-dev libeigen3-dev libboost-all-dev cmake
+        
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
+        
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install pytest
+        
     - name: Clone and build NSphere
       run: |
         git clone https://github.com/kris-sigurdson/NSphere.git refs/NSphere
-        cd refs/NSphere && make all
+        cd refs/NSphere
+        git checkout 8f146665af4f1031d4c0c6008e034ec3de67afba
+        make all
+        
     - name: Run parser tests
       run: pytest tests/
+      
     - name: Run mini NBody simulation (1000 particles)
       run: |
         ./refs/NSphere/bin/nsphere --nparticles 1000 --ntimesteps 100 --tfinal 1 --profile nfw --tag ci_test
