@@ -69,8 +69,12 @@ This pipeline provides a complete, reproducible workflow for simulating spherica
     source env/local/venv/bin/activate
     pip install numpy scipy matplotlib astropy galpy h5py tqdm psutil
 
-4.  **Build NSphere from source:**
-    Follow the instructions in refs/NSphere/README.md (the NSphere submodule must be cloned and compiled separately).
+4.  **Clone and build NSphere:**
+    git clone https://github.com/kris-sigurdson/NSphere.git refs/NSphere
+    cd refs/NSphere
+    make all
+    cd ../..
+    echo 'export PATH=$PATH:$(pwd)/refs/NSphere/bin' >> ~/.zshrc
 
 ---
 
@@ -82,6 +86,12 @@ This pipeline provides a complete, reproducible workflow for simulating spherica
         --dtwrite 500 --nout 20 --profile nfw \
         --halo-mass 1.0e9 --scale-radius 1.0 --cutoff-factor 10.0 \
         --tag nfw_long --method 1 --sort 1
+
+    # Example: SIDM halo (N=30,000, kappa=100 cm²/g)
+    ./refs/NSphere/bin/nsphere \
+        --nparticles 30000 --ntimesteps 2000 --tfinal 5 \
+        --profile nfw --halo-mass 1.0e9 --scale-radius 1.0 \
+        --tag sidm_test --sidm --sidm-kappa 100.0 --method 1 --sort 1
 
     # Generate the HTML report
     python scripts/make_report.py
@@ -122,6 +132,17 @@ For SIDM, elastic scattering is implemented with a user-specified cross-section 
 ## License
 
 This project is licensed under the MIT License. It uses NSphere, which is licensed under Apache-2.0 (see NOTICE).
+
+
+---
+
+## Physical Limitations & Scope
+
+This pipeline is designed as a **fast prototyping tool for spherical systems**, not a replacement for full 3D N-body codes (like Gadget-4). The key physical limitations are:
+
+*   **Spherical Symmetry:** By reducing 6D phase space to 3D, we explicitly ignore non-radial instabilities, mergers, and tidal stripping. This is valid only for isolated, relaxed halos.
+*   **SIDM Cross-section:** The example run uses \(\kappa = 100 \ \text{cm}^2/\text{g}\) to demonstrate core formation within a few dynamical times. Realistic astrophysical bounds (e.g., from cluster mergers) restrict \(\sigma/m\) to \(0.1 - 10 \ \text{cm}^2/\text{g}\). Running with realistic values requires significantly longer integration times and larger \(N\).
+*   **Resolution:** Runs with \(N=10^4 - 10^5\) particles lack the resolution to probe the innermost cusp of the NFW profile (the Power et al. 2003 convergence radius must be checked).
 
 ---
 
