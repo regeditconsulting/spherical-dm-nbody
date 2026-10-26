@@ -27,7 +27,7 @@ def main():
 
     # Сохраняем в текстовый формат (r, vr, vt)
     outfile = "data/ic_nfw.txt"
-    data = np.column_stack([samples.r(), samples.vr(), samples.vt()])
+    data = np.column_stack([samples.r(), samples.vr(), samples.vT()])
     np.savetxt(outfile, data, header="r vr vt", comments='')
     print(f"Saved {N} particles to {outfile}")
 
